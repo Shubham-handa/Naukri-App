@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.navbar{
+  background-color:#1e6091;
+}
+
+#title{
+  font-weight:bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.footend{
+  background-color: #1e6091;
+  height: 50px;
+  color:#212529;
+}
+
+.copyright{
+  margin-top:20px;
+}
+
+footer{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:70px;   /* Height of the footer */
+}
+
+a{
+  color:#212529;
+}
+
+#nv{
+  color:white;
+  display:inline-block;
+  position: relative;
+}
+
+#nv::after{
+  content:"";
+  position:absolute;
+  width:100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom:-2px;
+  left:0;
+  background-color:yellow;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#nv:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.modal-content{
+  height: 500px;
+  width: 400px;
+  /* background-color: white; */
+  background-color:#2B2B2B;
+  color:#EEEEEE;
+}
+
+.email{
+  width:250px;
+  height:30px;
+}
+
+.password{
+  width:250px;
+  height:30px;
+}
+
+
+.or{
+  margin-top: 15px;
+}
+
+.create{
+  text-decoration: none;
+  color:#EEEEEE;
+  margin-left: 5px;
+}
+
+.btn{
+  width:150px;
+  margin-left: 130px;
+}
+
+
+.create:hover{
+  color:darkgoldenrod;
+}
