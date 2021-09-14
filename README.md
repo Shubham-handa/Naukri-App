@@ -1,4 +1,4 @@
-# Naukri-App
+# Naukri-App Using ReactJs [![](https://img.shields.io/badge/ReactJs-build-blue)](https://reactjs.org/)
 
 Home
 -----
